@@ -1,0 +1,230 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.business-card {
+  position: relative;
+  width: 550px;
+  height: 868px;
+  left: 65px;
+  top: 53px;
+
+  background: #23252C;
+}
+
+.profile-image {
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+
+  background: #fff;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.profile-name {
+  position: absolute;
+  width: 178.06px;
+  height: 25.81px;
+  left: 186px;
+  top: 382px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.profile-role {
+  position: absolute;
+  width: 178.06px;
+  height: 14.19px;
+  left: 186px;
+  top: 414px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #F3BF99;
+}
+
+.profile-personal-website {
+  position: absolute;
+  width: 228px;
+  height: 16px;
+  left: 161px;
+  top: 437px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  text-align: center;
+
+  color: #F5F5F5;
+}
+
+.button-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+}
+
+.button-icon {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 8.33%;
+}
+
+.button-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 151px;
+  top: 468px;
+
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.button-linkedin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 283px;
+  top: 468px;
+
+  background-color: #5093E2;
+  color: #ffffff;
+}
+
+.profile-about-header {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 152px;
+  top: 535px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #F5F5F5;
+}
+
+.profile-about {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 152px;
+  top: 561px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+
+  color: #DCDCDC;
+}
+
+.profile-interests-header {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 152px;
+  top: 649px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+
+  color: #F5F5F5;
+}
+
+.profile-interests {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 152px;
+  top: 675px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+
+  color: #DCDCDC;
+}
+
+.social-icon-bg {
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+
+  display: flex;
+}
+
+.social-icon-instagram {
+  top: 50%;
+  left: 25%;
+  margin: 20px;
+}
+
+.social-icon-github {
+  top: 50%;
+  left: 75%;
+  margin: 20px;
+}
